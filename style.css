@@ -1,44 +1,51 @@
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  h1 {
-    font-size: 24px;
-    margin-top: 0;
-  }
-  
-  p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .social-links {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .social-links li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
-  .social-links li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .social-links li a:hover {
-    color: #ddd;
-  }
-  
-  .fa {
-    font-size: 24px;
-  }
-  
+  background-color: #222; /* Dark background color */
+  color: #fff; /* White text color */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center; /* Center text content */
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Arrange links horizontally */
+  justify-content: center; /* Center links within container */
+}
+
+.social-links li {
+  margin: 0 10px;
+}
+
+.social-links li a {
+  color: inherit; /* Inherit text color from body */
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50px; /* Create circular bubbles */
+  transition: background-color 0.2s ease-in-out; /* Add smooth transition for hover effect */
+}
+
+.social-links li a:hover {
+  background-color: #333; /* Change bubble color on hover */
+}
+
+.fa {
+  font-size: 24px;
+}
