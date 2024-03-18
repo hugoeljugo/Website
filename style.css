@@ -1,5 +1,8 @@
 body {
   background-color: #222; /* Dark background color */
+  background-image: image("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #fff; /* White text color */
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
@@ -14,7 +17,7 @@ body {
 
 h1 {
   font-size: 24px;
-  margin-top: 0;
+  margin-top: 15%;
 }
 
 p {
@@ -34,6 +37,7 @@ p {
 
 .social-links li {
   margin: 10px 0; /* Add vertical spacing between bubbles */
+  width: 33%;
 }
 
 .social-links li a {
@@ -46,19 +50,19 @@ p {
 }
 
 .social-links li:nth-child(1) a { /* Set color for the first bubble */
-  background-color: #4CAF50; /* Green */
+  background-color: #F0E6FF; /* Light lavender */
 }
 
 .social-links li:nth-child(2) a { /* Set color for the second bubble */
-  background-color: #3F51B5; /* Indigo */
+  background-color: #CEEBFF; /* Light blue */
 }
 
 .social-links li:nth-child(3) a { /* Set color for the third bubble */
-  background-color: #FF9800; /* Orange */
+  background-color: #F7CAC9; /* Light peach */
 }
 
 .social-links li:nth-child(4) a { /* Set color for the fourth bubble */
-  background-color: #F44336; /* Red */
+  background-color: #FCE4EC; /* Light pink */
 }
 
 .fa {
